@@ -1,0 +1,21 @@
+{
+    "def": {
+        "displayname": "shield/eleckraken"
+    },
+    
+    "properties": {
+        "iclipsize": 5,
+        "iMaxAmmo": 0,
+        "istartammo": 5,
+
+        "ammoindex": 778,
+        "ammoCountClipRelative": 1,
+        "ammoregen": 1,
+        "dodamagefeedback": 1,
+        
+        "doesfiredamage": 1,
+        "burndamage": 250,
+        "burndamageinterval": 30,
+        "burnduration": 2
+    }
+}

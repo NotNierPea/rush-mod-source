@@ -1,0 +1,17 @@
+{
+    "name": "Test weapon",
+    "data": [
+        {
+            "type": "weapon",
+            "name": "pistol_standard_t8_zm",
+            "path": "test_pistol.json",
+            "format": "delta"
+        },
+        {
+            "type": "weapon",
+            "name": "pistol_standard_t8_mp",
+            "path": "test_pistol.json",
+            "format": "delta"
+        }
+    ]
+}

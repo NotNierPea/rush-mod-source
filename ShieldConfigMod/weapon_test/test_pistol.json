@@ -1,0 +1,11 @@
+{
+    "def": {
+        "firesound": "hash_1ba1ed4c5853209a",
+        "firesoundplayer": "hash_5a91544cc4934ebf",
+        "firesounddistant": "hash_1ba1ed4c5853209a"
+    },
+    "properties": {
+        "iclipsize": 69,
+        "istartammo": 420
+    }
+}

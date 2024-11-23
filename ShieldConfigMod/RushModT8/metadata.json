@@ -1,0 +1,876 @@
+{
+    "name": "Rush Mod T8",
+    "data": [
+        {
+            "type": "luafile",
+            "name": "ui/shield/RushMainInit",
+            "path": "Rush_Lua\\RushMainInit.luac",
+            "hooks_pre": [
+                "x64:27cac000f20ef647"
+            ]
+        },
+        
+        {
+            "type": "luafile",
+            "name": "ui/shield/RushFrontEndPost",
+            "path": "Rush_Lua\\RushFrontEndPost.luac",
+            "hooks_pre": [
+                "x64:4ed0bcba9d999e0f"
+            ]
+        },
+        {
+            "type": "luafile",
+            "name": "ui/shield/RushFrontEndInit",
+            "path": "Rush_Lua\\RushFrontEndInit.luac",
+            "hooks_pre": [
+                "x64:a72a59704fc8a51"
+            ]
+        },
+
+        {
+            "type": "scriptparsetree",
+            "name": "scripts/zm_common/RushModT8.gsc",
+            "path": "Rush_GSC-CSC\\RushModT8.gsic",
+            "hooks": [
+                "scripts/zm_common/load.gsc"
+            ]
+        },
+        {
+            "type": "scriptparsetree",
+            "name": "scripts/zm_common/RushModT8.csc",
+            "path": "Rush_GSC-CSC\\RushModT8.cscc",
+            "hooks": [
+                "scripts/zm_common/load.csc"
+            ]
+        },
+
+        {
+            "type": "scriptparsetree",
+            "name": "scripts/zm_common/RushFrontendT8.gsc",
+            "path": "Rush_GSC-CSC\\RushFrontendT8.gscc",
+            "hooks": [
+                "scripts/core_common/load_shared.gsc"
+            ]
+        },
+        {
+            "type": "scriptparsetree",
+            "name": "scripts/zm_common/RushFrontendT8.csc",
+            "path": "Rush_GSC-CSC\\RushFrontendT8.cscc",
+            "hooks": [
+                "scripts/core_common/load_shared.csc"
+            ]
+        },
+
+        {
+            "type": "stringtable",
+            "name": "gamedata/shield/custom_errors.csv",
+            "path": "Rush_Utils\\RushErrors.tsv",
+            "separator": "\t"
+        },
+
+        {
+            "type": "hashes",
+            "path": "Rush_Utils\\RushHashes.txt",
+            "format": "serious_compiler",
+            "ignore_error": true
+        },
+        {
+            "type": "hashes",
+            "path": "Rush_Utils\\RushStrings.txt",
+            "format": "string",
+            "ignore_error": true
+        },
+
+        
+
+        {
+            "type": "localizeentry",
+            "name": "shield/custombutton",
+            "value": "Custom Shield Button"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/launchgame",
+            "value": "Launch Game"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/serverbrowser",
+            "value": "^2Server Browser"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/servers",
+            "value": "^2Servers"
+        },
+
+        {
+            "type": "localizeentry",
+            "name": "shield/server1",
+            "value": "^3Public Server 1 (Hosted by BodNJenie)"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/server2",
+            "value": "^3Public Server 2 (Hosted by ????)"
+        },
+
+        {
+            "type": "localizeentry",
+            "name": "shield/strafeweapon",
+            "value": "Super Strafe"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/eleckraken",
+            "value": "Electric Kraken"
+        },
+
+        {
+            "type": "localizeentry",
+            "name": "shield/normalrush",
+            "value": "^3 Press ^1[{+activate}] ^2to Start Normal Rush Mode"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/bossrush",
+            "value": "^3 Press ^1[{+activate}] ^8to Start Boss Rush Mode"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/questVoDAOrush",
+            "value": "^3 Press ^1[{+activate}] ^6to Start Rush Mode With Skipped Clock Step"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/questBOTDbird",
+            "value": "^3 Press ^1[{+activate}] ^3to Start Rush Mode With Skipped Finding Bird Step"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/questBOTDchall",
+            "value": "^3 Press ^1[{+activate}] ^4to Start Rush Mode With Skipped All 5 Main Quest Challenges"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/questAErush",
+            "value": "^3 Press ^1[{+activate}] ^2to Start Rush Mode With Skipped Oil Step"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/customquesttoggle",
+            "value": "^3 Press ^1[{+activate}] ^2to Toggle Rush Mode Extra Main Quests \n^3[Currently: &&1^3]"
+        },
+
+        {
+            "type": "localizeentry",
+            "name": "shield/hint_on",
+            "value": "^2On"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/hint_off",
+            "value": "^1Off"
+        },
+
+        {
+            "type": "localizeentry",
+            "name": "shield/powerrush",
+            "value": "^3 Press ^1[{+activate}] ^2for All Perks and Shield"
+        },
+        {
+            "type": "localizeentry",
+            "name": "menu/zombies",
+            "value": "^2Rush Modeeeee"
+        },
+        {
+            "type": "localizeentry",
+            "name": "menu/error",
+            "value": "ERROR.. DUMBASS"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/rushpap",
+            "value": "^3 Press ^1[{+activate}] ^2for Pack-a-Punch ^6[Cost: ^2Free^6]"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/waitrush",
+            "value": "^1 Awaiting Gamestate......"
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/messagehud",
+            "value": "^1Waiting For Selection....."
+        },
+        {
+            "type": "localizeentry",
+            "name": "shield/goback",
+            "value": "^3 Press ^1[{+activate}] ^9to Go Back....."
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_148e5fc10a26a69d",
+            "value": "^1Game Over....., ^2Fast Restart?"
+        },
+
+        {
+            "type": "localizeentry",
+            "name": "shield/rockrush",
+            "value": "^3 Press ^2[{+activate}] ^1to Start Rush Lockdown..."
+        }
+    ],
+
+    "cache": [
+        {
+            "type": "eventstring",
+            "name": "rush_boss",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_boss_health",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_boss_phase",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_boss_line",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_boss_line_2",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_boss_wipes",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_boss_box",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_counter",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_event",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_zombie_counter",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_quest_detect",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_zombie_round",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_test_string",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_event_box",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_event_box_bg",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_boss_health_bar",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_boss_health_bar_bg",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "eventstring",
+            "name": "rush_boss_health_bar_l",
+            "mode": [
+                "zm"
+            ]
+        },
+
+        {
+            "type": "string",
+            "name": "shield/custombutton",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/launchgame",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/serverbrowser",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/servers",
+            "mode": [
+                "zm"
+            ]
+        },
+
+        {
+            "type": "string",
+            "name": "shield/server1",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/server2",
+            "mode": [
+                "zm"
+            ]
+        },
+
+        {
+            "type": "string",
+            "name": "shield/strafeweapon",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/eleckraken",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/normalrush",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/bossrush",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/questVoDAOrush",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/questBOTDchall",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/questBOTDbird",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/questAErush",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/rushpap",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/customquesttoggle",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/hint_on",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/hint_off",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/waitrush",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/messagehud",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/powerrush",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/goback",
+            "mode": [
+                "zm"
+            ]
+        },
+        {
+            "type": "string",
+            "name": "shield/rockrush",
+            "mode": [
+                "zm"
+            ]
+        }
+    ],
+
+    "redirect": [
+        {
+            "type": "image",
+            "origin": "hash_17c3946dfcb3186b",
+            "target": "specialty_widows_wine_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_73dff6449b4fbba3",
+            "target": "specialty_three_guns_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_32dfeafb05f0b4c6",
+            "target": "specialty_quickrevive_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_4dcbebc4f89a1e2b",
+            "target": "specialty_fastreload_zombies"
+        },
+
+        {
+            "type": "image",
+            "origin": "ui_icon_specialist_portrait_hud_brigadier",
+            "target": "specialty_widows_wine_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_specialist_portrait_hud_butler",
+            "target": "specialty_three_guns_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_specialist_portrait_hud_gunslinger",
+            "target": "specialty_quickrevive_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_specialist_portrait_hud_gypsy",
+            "target": "specialty_fastreload_zombies"
+        },
+
+        {
+            "type": "image",
+            "origin": "ui_icon_specialist_portrait_hud_stuhlinger",
+            "target": "specialty_widows_wine_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_specialist_portrait_hud_russman",
+            "target": "specialty_three_guns_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_specialist_portrait_hud_johnson",
+            "target": "specialty_quickrevive_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_specialist_portrait_hud_misty",
+            "target": "specialty_fastreload_zombies"
+        },
+
+        {
+            "type": "image",
+            "origin": "hash_6e986e4c844a1d01",
+            "target": "specialty_widows_wine_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_4cafe6fc3b5f5010",
+            "target": "specialty_three_guns_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_432a5887d88ce8c1",
+            "target": "specialty_quickrevive_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_0b0b4c4bf8d7a4ea",
+            "target": "specialty_fastreload_zombies"
+        },
+
+        {
+            "type": "image",
+            "origin": "hash_871569fda1e2d079",
+            "target": "specialty_widows_wine_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_c75831be84f9a29c",
+            "target": "specialty_three_guns_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_a4a8ada5e8633f3c",
+            "target": "specialty_quickrevive_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_b2fd1a0bcfa7616b",
+            "target": "specialty_fastreload_zombies"
+        },
+
+        {
+            "type": "image",
+            "origin": "hash_de7a0ffb575f4c1d",
+            "target": "specialty_widows_wine_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_e84330c212a2c4e5",
+            "target": "specialty_three_guns_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_2057b2ffd58957fc",
+            "target": "specialty_quickrevive_zombies"
+        },
+        {
+            "type": "image",
+            "origin": "hash_e7d7a5eb3b9e3da5",
+            "target": "specialty_fastreload_zombies"
+        },
+
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_mulekick",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_mulekick_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_electricburst",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_electricburst_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_quickrevive",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_quickrevive_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_winterswail",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_winterswail_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_timeslip",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_timeslip_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_staminup",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_staminup_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_blaze_phase",
+            "target": "ui_icon_perk_skulker"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_deathperception",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_deathperception_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_bandolierbandit",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_bandolierbandit_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_bloodwolfbite",
+            "target": "ui_icon_perk_scavenger"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_dyingwish",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_dyingwish_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_secretsauce",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_secretsauce_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_phdslider",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_phdslider_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_victorioustortoise",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_victorioustortoise_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_stonecoldstronghold",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_stonecoldstronghold_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zombshell",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_zombshell_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_etherealrazor",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_etherealrazor_c"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_perks_zm_deadshot",
+            "target": "i_mtl_p8_zm_vapor_altar_icon_01_deadshot_c"
+        },
+
+        {
+            "type": "image",
+            "origin": "hash_07720711a9a812e6",
+            "target": "hash_1404dc4c0475b6d4"
+        },
+
+        {
+            "type": "image",
+            "origin": "ui_icon_hud_zb_power_up_insta_kill",
+            "target": "ui_icon_elixirs_head_drama"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_hud_zb_power_up_firesale",
+            "target": "uie_ui_codpoints_symbol_32x32"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_hud_zb_power_up_double_points",
+            "target": "ui_icon_2xp_blackmarket_small"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_hud_zb_bonfiresale_vending_packapunch",
+            "target": "ui_icon_nebulium_2x"
+        },
+        {
+            "type": "image",
+            "origin": "ui_icon_hud_zb_bonfiresale",
+            "target": "ui_icon_nebulium_2x"
+        },
+
+        {
+            "type": "image",
+            "origin": "ui_icon_weapons_zm_riot_shield_health",
+            "target": "hash_2bc36b6ec1d1dd90"
+        },
+        {
+            "type": "image",
+            "origin": "hash_3dd3171d7aecdb89",
+            "target": "hash_2bc36b6ec1d1dd90"
+        },
+        {
+            "type": "image",
+            "origin": "hash_3e099a4eaf7f43ca",
+            "target": "hash_2bc36b6ec1d1dd90"
+        },
+        {
+            "type": "image",
+            "origin": "hash_38ba0f4bb9e364fe",
+            "target": "hash_2bc36b6ec1d1dd90"
+        },
+
+        {
+            "type": "image",
+            "origin": "uie_ui_icon_hud_zb_bodyarmor",
+            "target": "hash_3be65e6e82ab6cdf"
+        },
+
+        {
+            "type": "image",
+            "origin": "damage_feedback",
+            "target": "damage_feedback_glow_orange"
+        },
+
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_mrk1def",
+            "target": "uie_t7_zm_hud_rnd_mrk1act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_mrk2def",
+            "target": "uie_t7_zm_hud_rnd_mrk2act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_mrk3def",
+            "target": "uie_t7_zm_hud_rnd_mrk3act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_mrk4def",
+            "target": "uie_t7_zm_hud_rnd_mrk4act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_mrk5def",
+            "target": "uie_t7_zm_hud_rnd_mrk5act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_nmbr0",
+            "target": "uie_t7_zm_hud_rnd_nmbr0_act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_nmbr1",
+            "target": "uie_t7_zm_hud_rnd_nmbr1_act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_nmbr2",
+            "target": "uie_t7_zm_hud_rnd_nmbr2_act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_nmbr3",
+            "target": "uie_t7_zm_hud_rnd_nmbr3_act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_nmbr4",
+            "target": "uie_t7_zm_hud_rnd_nmbr4_act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_nmbr5",
+            "target": "uie_t7_zm_hud_rnd_nmbr5_act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_nmbr6",
+            "target": "uie_t7_zm_hud_rnd_nmbr6_act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_nmbr7",
+            "target": "uie_t7_zm_hud_rnd_nmbr7_act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_nmbr8",
+            "target": "uie_t7_zm_hud_rnd_nmbr8_act"
+        },
+        {
+            "type": "image",
+            "origin": "uie_t7_zm_hud_rnd_nmbr9",
+            "target": "uie_t7_zm_hud_rnd_nmbr9_act"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "def": {
+        "firesound": "hash_1ba1ed4c5853209a",
+        "firesoundplayer": "hash_5a91544cc4934ebf",
+        "firesounddistant": "hash_1ba1ed4c5853209a",
+
+        "displayname": "shield/strafeweapon"
+    },
+    
+    "properties": {
+        "iclipsize": 10,
+        "iMaxAmmo": 0,
+        "istartammo": 10,
+        
+        "ammoindex": 777,
+        "ammoCountClipRelative": 1,
+        "ammoregen": 1,
+        "dodamagefeedback": 1,
+        
+        "doesfiredamage": 1,
+        "burndamage": 250,
+        "burndamageinterval": 30,
+        "burnduration": 2
+    }
+}

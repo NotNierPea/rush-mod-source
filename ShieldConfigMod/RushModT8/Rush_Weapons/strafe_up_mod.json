@@ -1,0 +1,40 @@
+{
+    "def": {
+        "firesound": "zmb_bgb_abh_teleport_in",
+        "firesoundplayer": "hash_5a91544cc4934ebf",
+        "firesounddistant": "zmb_bgb_abh_teleport_in",
+
+        "unk_140": "zmb_bgb_abh_teleport_in",
+        "unk_150": "hash_34e9d80a2f767f02",
+        "unk_1d0": "zmb_bgb_abh_teleport_in",
+        "unk_1e0": "zmb_bgb_abh_teleport_in",
+        "unk_200": "zmb_bgb_abh_teleport_in",
+        "unk_210": "zmb_bgb_abh_teleport_in",
+        "unk_240": "zmb_bgb_abh_teleport_in",
+        "unk_250": "zmb_bgb_abh_teleport_in",
+        "unk_260": "zmb_bgb_abh_teleport_in",
+        "unk_600": "zmb_bgb_abh_teleport_in",
+        "unk_610": "zmb_bgb_abh_teleport_in",
+        "unk_800": "zmb_bgb_abh_teleport_in",
+        "unk_810": "zmb_bgb_abh_teleport_in",
+        "unk_820": "zmb_bgb_abh_teleport_in",
+
+        "displayname": "shield/strafeweapon"
+    },
+    
+    "properties": {
+        "iclipsize": 25,
+        "iMaxAmmo": 0,
+        "istartammo": 25,
+        
+        "ammoindex": 777,
+        "ammoCountClipRelative": 1,
+        "ammoregen": 1,
+        "dodamagefeedback": 1,
+
+        "doesfiredamage": 0,
+        "burndamage": 750,
+        "burndamageinterval": 100,
+        "burnduration": 5
+    }
+}

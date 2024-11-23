@@ -1,0 +1,88 @@
+{
+    "name": "FrontEndStuff",
+    "data": [
+        {
+            "type": "localizeentry",
+            "name": "menu/off",
+            "value": "^1OFF"
+        },
+        {
+            "type": "localizeentry",
+            "name": "menu/on",
+            "value": "^3ON"
+        },
+        {
+            "type": "localizeentry",
+            "name": "menu/enabled",
+            "value": "^3Enabled"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_58a3d2684056d788",
+            "value": "^1Cool Ship Map"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_9c975db16cceba5",
+            "value": "^2Weird Ass Map"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_4d4de632931b7580",
+            "value": "^9Most Hated Map"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_5e6b3d39d479f22e",
+            "value": "^8Most Loved Map"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_6426e91377126148",
+            "value": "^4Cool Prison Map"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_2744ee0ea477fe83",
+            "value": "^5Nuketown Copy"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_56b0e166b3b2a90b",
+            "value": "^6Five But Better"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_14894d0fe4dfa76d",
+            "value": "^7COTD But Worse"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_392095a74a04187f",
+            "value": "^1I Wanna Cry"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_ecb7319b79faa96",
+            "value": "^2Average"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_667807e571813e78",
+            "value": "^5Shit Mode"
+        },
+        {
+            "type": "localizeentry",
+            "name": "hash_2ed79943a5c831e7",
+            "value": "^4Why?"
+        }
+    ],
+
+    "redirect": [
+        {
+            "type": "sound",
+            "origin": "evt_audio_log_1_vox",
+            "target": "evt_audio_log_0_vox"
+        }
+    ]
+}
